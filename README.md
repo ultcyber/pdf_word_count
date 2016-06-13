@@ -26,7 +26,7 @@ pip install -r requirements.txt
 Use command line to launch the script.
 
 Positional (mandatory) argument:
-  path                Path to the folder - type . to indicate current folder
+path                Path to the folder - type . to indicate current folder
 
 Optional arguments:
   -h, --help          show usage and exit
@@ -40,7 +40,7 @@ Example:
 python pdf_parser.py . -sverbose
 ```
 
-Will walk the current working directory and ask for user input (yes/no) before parsing a file
+Will walk the current working directory and ask for user input (yes/no) before parsing a file.
 
 
 ## Author
