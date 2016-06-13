@@ -25,26 +25,19 @@ pip install -r requirements.txt
 
 Use command line to launch the script.
 
-Positional (mandatory) argument:
+```
+positional arguments:
+  path                Path to the folder - type . to indicate current folder
 
-path
-	Path to the folder - type . to indicate current folder
+optional arguments:
+  -h, --help          show this help message and exit
+  -database DATABASE  Path to the database file
+  -verbose            Asks for every folder
+  -sverbose           Asks for every file
 
-Optional arguments:
+```
 
--h, --help
-	show usage and exit
-
--database 
-	Path to the database file - if not provided, database.db is used as a default file and placed in cwd
-
--verbose
-	Asks for every folder
-
--sverbose
-	Asks for every file
-
-
+Positional
 Example:
 
 ```
