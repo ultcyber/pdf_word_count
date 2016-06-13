@@ -30,14 +30,12 @@ positional arguments:
   path                Path to the folder - type . to indicate current folder
 
 optional arguments:
-  -h, --help          show this help message and exit
-  -database DATABASE  Path to the database file
+  -h, --help          show usage message and exit
+  -database DATABASE  Path to the database file - if not provided, 'database.db' in the cwd is used as default
   -verbose            Asks for every folder
   -sverbose           Asks for every file
 
 ```
-
-Positional
 Example:
 
 ```
