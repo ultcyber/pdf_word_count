@@ -34,12 +34,16 @@ Optional arguments:
 
 -h, --help
 	show usage and exit
+
 -database 
 	Path to the database file - if not provided, database.db is used as a default file and placed in cwd
+
 -verbose
 	Asks for every folder
+
 -sverbose
 	Asks for every file
+
 
 Example:
 
